@@ -26,9 +26,9 @@ Aplicación desarrollada para automatizar el registro y cálculo de calificacion
 
 ## Uso de las Estructuras Repetitivas (Bucles)
 
-1. **Bucle `do-while` (Repetición del programa):** Se utilizó para envolver la lógica principal y preguntar al final si se desea procesar otro grupo (`s/n`). Es el ideal porque garantiza que el programa se ejecute al menos una vez antes de evaluar la condición de salida.
-2. **Bucle `while` (Validación de datos):** Se empleó tanto para validar que la cantidad de estudiantes sea mayor que 0 como para verificar que cada calificación esté entre 0 y 100. Se eligió `while` porque no se sabe de antemano cuántas veces el usuario podría ingresar un dato incorrecto.
-3. **Bucle `for` (Recorrido de estudiantes y calificaciones):** Se utilizó un `for` externo para iterar desde el estudiante 1 hasta `cantidadEstudiantes`, y un `for` interno para solicitar exactamente las 4 notas de cada alumno. Es la estructura adecuada porque en ambos casos se conoce previamente el número exacto de repeticiones.
+1. **Bucle `do-while` (Repetición del programa):** Se utilizó para envolver la lógica principal y preguntar al final si se desea procesar otro grupo (`s/n`). Esto garantiza que el programa se ejecute al menos una vez antes de evaluar la condición de salida.
+2. **Bucle `while` (Validación de datos):** Se empleó tanto para validar que la cantidad de estudiantes sea mayor que 0 como para verificar que cada calificación esté entre 0 y 100. Se eligió `while` porque no se sabe cuántas veces el usuario podría digitar un dato incorrecto.
+3. **Bucle `for` (Recorrido de estudiantes y calificaciones):** Se utilizó un `for` externo para iterar desde el estudiante 1 hasta `cantidadEstudiantes`, y un `for` interno para solicitar exactamente las 4 notas de cada alumno. Es la estructura adecuada porque en ambos casos conocemos la cantidad exacta de repeticiones.
 
 ## Capturas de Pantalla de Ejecución
 
