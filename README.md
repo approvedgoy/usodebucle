@@ -1,10 +1,10 @@
 # Sistema de Registro de Calificaciones - Centro Educativo "La Nueva Escuela"
 
-* **Estudiante:** Michael J. Paniagua  
-* **Matrícula:** 2025-3196
+* **Estudiante:** [Tu Nombre Completo]
+* **Matrícula:** [Tu Matrícula]
 
 ## Descripción del Programa
-Aplicación desarrollada en C++ para automatizar el registro y cálculo de calificaciones de los estudiantes del centro educativo "La Nueva Escuela", evitando errores manuales. Permite ingresar grupos de estudiantes, validar notas, calcular promedios individuales y generar un resumen estadístico del grupo.
+Aplicación de consola desarrollada en C++ para automatizar el registro y cálculo de calificaciones de los estudiantes del centro educativo "La Nueva Escuela", evitando errores manuales. Permite ingresar grupos de estudiantes, validar notas, calcular promedios individuales y generar un resumen estadístico del grupo.
 
 ## Datos de Entrada, Proceso y Salida
 
@@ -24,13 +24,10 @@ Aplicación desarrollada en C++ para automatizar el registro y cálculo de calif
   * Promedio individual con dos decimales y estado (Aprobado / Reprobado) por cada estudiante.
   * Resumen final del grupo con el total de aprobados, total de reprobados, promedio general del grupo y el nombre junto al promedio del estudiante más destacado.
 
-## Uso de las Estructuras repetitivas (Bucles)
+## Uso de las Estructuras Repetitivas (Bucles)
 
 1. **Bucle `do-while` (Repetición del programa):** Se utilizó para envolver la lógica principal y preguntar al final si se desea procesar otro grupo (`s/n`). Es el ideal porque garantiza que el programa se ejecute al menos una vez antes de evaluar la condición de salida.
 2. **Bucle `while` (Validación de datos):** Se empleó tanto para validar que la cantidad de estudiantes sea mayor que 0 como para verificar que cada calificación esté entre 0 y 100. Se eligió `while` porque no se sabe de antemano cuántas veces el usuario podría ingresar un dato incorrecto.
 3. **Bucle `for` (Recorrido de estudiantes y calificaciones):** Se utilizó un `for` externo para iterar desde el estudiante 1 hasta `cantidadEstudiantes`, y un `for` interno para solicitar exactamente las 4 notas de cada alumno. Es la estructura adecuada porque en ambos casos se conoce previamente el número exacto de repeticiones.
 
 ## Capturas de Pantalla de Ejecución
-
-
-![Ejecución del programa](captura1.png)
