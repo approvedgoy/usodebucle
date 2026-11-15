@@ -4,7 +4,7 @@
 * **Matrícula:** 2025-3196
 
 ## Descripción del Programa
-Aplicación de consola desarrollada en C++ para automatizar el registro y cálculo de calificaciones de los estudiantes del centro educativo "La Nueva Escuela", evitando errores manuales. Permite ingresar grupos de estudiantes, validar notas, calcular promedios individuales y generar un resumen estadístico del grupo.
+Aplicación desarrollada para automatizar el registro y cálculo de calificaciones de los estudiantes del centro educativo "La Nueva Escuela", evitando errores manuales. Permite ingresar grupos de estudiantes, validar notas, calcular promedios individuales y generar un resumen estadístico del grupo.
 
 ## Datos de Entrada, Proceso y Salida
 
