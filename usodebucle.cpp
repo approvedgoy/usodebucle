@@ -31,7 +31,7 @@ int main() {
             cout << "\n--- Estudiante " << i << " ---\n";
             cout << "Nombre: ";
             cin >> nombreEstudiante; // Se utiliza cin >> para leer el nombre del estudiante.
-            getline(cin, nombreEstudiante); //getline para capturar el resto de la línea después del nombre.
+            getline(cin, nombreEstudiante); //getline para poder escribir el resto de la línea después del nombre.
 
 
             for (int j = 1; j <= 4; j++) {
