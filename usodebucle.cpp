@@ -30,8 +30,8 @@ int main() {
 
             cout << "\n--- Estudiante " << i << " ---\n";
             cout << "Nombre: ";
-            cin >> nombreEstudiante; // Se utiliza cin >> para leer el nombre del estudiante
-            getline(cin, nombreEstudiante);
+            cin >> nombreEstudiante; // Se utiliza cin >> para leer el nombre del estudiante.
+            getline(cin, nombreEstudiante); //getline para capturar el resto de la línea después del nombre.
 
 
             for (int j = 1; j <= 4; j++) {
@@ -44,14 +44,14 @@ int main() {
                     cin >> nota;
                 }
 
-                sumaNotas += nota; // Acumulador de las 4 notas del estudiante
+                sumaNotas += nota; // Acumulador de las 4 notas del estudiante.
             }
 
             double promedioEstudiante = sumaNotas / 4.0;
             sumaNotaGrupo += promedioEstudiante; 
 
           
-            cout << fixed << setprecision(2);
+            cout << fixed << setprecision(2); // Se establece la precisión de salida a 2 decimales.
             cout << "Promedio: " << promedioEstudiante << " - ";
 
             if (promedioEstudiante >= 70.0) {
@@ -69,7 +69,7 @@ int main() {
         }
 
     
-        double promedioGeneral = sumaNotaGrupo / cantidadEstudiantes;
+        double promedioGeneral = sumaNotaGrupo / cantidadEstudiantes; // Cálculo del promedio general del grupo.
 
         cout << "\n===== RESUMEN =====\n";
         cout << "Aprobados: " << aprobados << " | Reprobados: " << reprobados << "\n";
