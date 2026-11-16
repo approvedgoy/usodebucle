@@ -32,5 +32,5 @@ Aplicación desarrollada para automatizar el registro y cálculo de calificacion
 
 ## Capturas de Pantalla de Ejecución
 
-![Ejecucion del programa](Untitled.png)
-![Error al colocar un numero mayor a 100](image.png)
+![Ejecucion del programa](img/Untitled.png)
+![Error al colocar un numero mayor a 100](img/image.png)
